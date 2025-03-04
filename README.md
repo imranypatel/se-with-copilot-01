@@ -5,10 +5,10 @@ This project demonstrates an end-to-end machine learning workflow with MLOps usi
 ## Project Structure
 
 - `src/`: Source code for the project
-  - `data_preprocessing.py`: Code for data preprocessing
-  - `model_training.py`: Code for model training
-  - `model_evaluation.py`: Code for model evaluation
-  - `mlflow_tracking.py`: Code for MLFlow tracking
+  - `data_preprocessing.py`: Code for data preprocessing using the `DataPreprocessor` class
+  - `model_training.py`: Code for model training using the `ModelTrainer` class
+  - `model_evaluation.py`: Code for model evaluation using the `ModelEvaluator` class
+  - `mlflow_tracking.py`: Code for MLFlow tracking using the `MLFlowTracker` class
 - `requirements.txt`: Dependencies for the project
 
 ## Setting Up the Environment
